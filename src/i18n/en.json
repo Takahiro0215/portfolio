@@ -1,0 +1,96 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hi, I'm",
+        "description": "Junior web developer based in Montreal. I build modern web applications using React and JavaScript, with a strong focus on clean and maintainable code.",
+        "ctaPrimary": "View my work",
+        "scroll": "Scroll"
+    },
+    "about": {
+        "titlePrefix": "About",
+        "titleHighlight": "Me",
+        "subtitle": "Passionate Web Developer & Tech Creator",
+        "description": "Hello, my name is Takahiro Asami. I am originally from Japan and currently based in Montreal. I am passionate about front-end development, particularly using React and JavaScript, while also having a foundation in back-end development. Curious and motivated, I enjoy learning new skills and working collaboratively with others.",
+        "ctaContact": "Get in Touch",
+        "ctaCV": "Download CV",
+        "cards": {
+            "frontend": {
+                "title": "Front-End Development",
+                "description": "Building responsive and interactive web interfaces using React, JavaScript, and CSS."
+            },
+            "backend": {
+                "title": "Back-End Basics",
+                "description": "Experience with REST APIs, Node.js, and databases such as MySQL, focusing on clean and maintainable code."
+            },
+            "learning": {
+                "title": "Learning & Collaboration",
+                "description": "Motivated junior developer who enjoys learning new technologies and collaborating with team members."
+            }
+        }
+    },
+    "skills": {
+        "titlePrefix": "My",
+        "titleHighlight": "Skills",
+        "categories": {
+            "all": "All",
+            "frontend": "Front-End",
+            "backend": "Back-End",
+            "tools": "Tools"
+        }
+    },
+    "contact": {
+        "titlePrefix": "Get In",
+        "titleHighlight": "Touch",
+        "description": "I am open to new opportunities as a junior web developer. If you have any questions about my projects or would like to get in touch, I would be happy to hear from you.",
+
+        "infoTitle": "Contact Information",
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location",
+        "connect": "Connect With Me",
+
+        "formTitle": "Send a Message",
+        "nameLabel": "Your Name",
+        "emailLabel": "Your Email",
+        "messageLabel": "Your Message",
+        "namePlaceholder": "Your name...",
+        "emailPlaceholder": "your.email@example.com",
+        "messagePlaceholder": "Hello, I'd like to talk about...",
+
+        "send": "Send Message",
+        "sending": "Sending...",
+
+        "toastTitle": "Message sent!",
+        "toastDescription": "Thank you for your message. I'll get back to you soon."
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    },
+    "projects": {
+        "titlePrefix": "Featured",
+        "titleHighlight": "Projects",
+        "description": "These projects were built as part of my studies and personal learning. They allowed me to apply my skills in front-end and back-end development, and to better understand real-world application workflows.",
+        "githubButton": "Check My GitHub",
+
+        "items": {
+            "portfolio": {
+                "title": "Personal Portfolio Website",
+                "description": "This personal portfolio website was built to showcase my projects, skills, and background as a junior web developer..."
+            },
+            "quiz": {
+                "title": "Quiz App",
+                "description": "An interactive quiz application built with React. Users can answer questions, view their final score with a confetti animation, and navigate between pages using React Router. Quiz data is stored separately for better maintainability."
+            },
+            "recipes": {
+                "title": "Recettes Faciles",
+                "description": "A simple recipe management application where users can add recipes and search by title or ingredients. Data is stored locally using LocalStorage."
+            }
+        }
+    }
+}

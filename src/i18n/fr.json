@@ -1,0 +1,96 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "skills": "Compétences",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "description": "Développeur web junior basé à Montréal. Je crée des applications web modernes avec React et JavaScript, en mettant l’accent sur un code propre et maintenable.",
+        "ctaPrimary": "Voir mes projets",
+        "scroll": "Défiler"
+    },
+    "about": {
+        "titlePrefix": "À propos de",
+        "titleHighlight": "moi",
+        "subtitle": "Développeur web passionné & créateur technologique",
+        "description": "Bonjour, je m’appelle Takahiro Asami. Je suis originaire du Japon et basé à Montréal. Je suis passionné par le développement front-end, notamment avec React et JavaScript, tout en ayant des bases en back-end. Curieux et motivé, j’aime apprendre de nouvelles compétences et collaborer avec les autres.",
+        "ctaContact": "Me contacter",
+        "ctaCV": "Télécharger le CV",
+        "cards": {
+            "frontend": {
+                "title": "Développement Front-End",
+                "description": "Création d’interfaces web responsives et interactives avec React, JavaScript et CSS."
+            },
+            "backend": {
+                "title": "Bases Back-End",
+                "description": "Expérience avec les API REST, Node.js et des bases de données comme MySQL, en mettant l’accent sur un code propre et maintenable."
+            },
+            "learning": {
+                "title": "Apprentissage & Collaboration",
+                "description": "Développeur junior motivé, aimant apprendre de nouvelles technologies et collaborer avec les membres d’une équipe."
+            }
+        }
+    },
+    "skills": {
+        "titlePrefix": "Mes",
+        "titleHighlight": "Compétences",
+        "categories": {
+            "all": "Toutes",
+            "frontend": "Front-End",
+            "backend": "Back-End",
+            "tools": "Outils"
+        }
+    },
+    "contact": {
+        "titlePrefix": "Me",
+        "titleHighlight": "contacter",
+        "description": "Je suis actuellement à la recherche d’opportunités en tant que développeur web junior. Si vous avez des questions sur mes projets ou souhaitez me contacter, n’hésitez pas à m’écrire.",
+
+        "infoTitle": "Informations de contact",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "location": "Localisation",
+        "connect": "Me contacter sur les réseaux",
+
+        "formTitle": "Envoyer un message",
+        "nameLabel": "Votre nom",
+        "emailLabel": "Votre e-mail",
+        "messageLabel": "Votre message",
+        "namePlaceholder": "Votre nom...",
+        "emailPlaceholder": "votre.email@example.com",
+        "messagePlaceholder": "Bonjour, j’aimerais discuter de...",
+
+        "send": "Envoyer le message",
+        "sending": "Envoi en cours...",
+
+        "toastTitle": "Message envoyé !",
+        "toastDescription": "Merci pour votre message. Je vous répondrai dès que possible."
+    },
+    "footer": {
+        "rights": "Tous droits réservés."
+    },
+    "projects": {
+        "titlePrefix": "Mes",
+        "titleHighlight": "Projets",
+        "description": "Ces projets ont été réalisés dans le cadre de mes études et de mon apprentissage personnel. Ils m’ont permis de mettre en pratique mes compétences en développement front-end et back-end, et de mieux comprendre le fonctionnement d’applications réelles.",
+        "githubButton": "Voir mon GitHub",
+
+        "items": {
+            "portfolio": {
+                "title": "Site Portfolio Personnel",
+                "description": "Ce site portfolio personnel a été développé afin de présenter mes projets, mes compétences et mon parcours..."
+            },
+            "quiz": {
+                "title": "Application Quiz",
+                "description": "Une application de quiz interactive développée avec React. L’utilisateur peut répondre à des questions, consulter son score final avec une animation de confettis et naviguer entre les pages grâce à React Router."
+            },
+            "recipes": {
+                "title": "Recettes Faciles",
+                "description": "Une application simple de gestion de recettes permettant d’ajouter des recettes et de les rechercher par titre ou par ingrédients. Les données sont stockées localement via LocalStorage."
+            }
+        }
+    }
+}
