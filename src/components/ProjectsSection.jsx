@@ -13,19 +13,60 @@ const projects = [
             "Context API",
             "i18n",
         ],
-        githubUrl: "#",
+        githubUrl: "https://github.com/Takahiro0215/my-portfolio",
     },
     {
-        id: "quiz",
-        image: "/projects/quiz1.png",
-        tags: ["HTML", "CSS", "JavaScript", "React"],
-        githubUrl: "#",
+        id: "video-streaming",
+        image: "/projects/video-streaming.png",
+        tags: [
+            "React",
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "YouTube API",
+            "REST API",
+        ],
+        githubUrl: "https://github.com/Takahiro0215/video-streaming-platform",
     },
     {
-        id: "recipes",
-        image: "/projects/recette1.png",
-        tags: ["HTML", "CSS", "TypeScript", "Angular"],
-        githubUrl: "#",
+        id: "ecommerce",
+        image: "/projects/ecommerce.png",
+        tags: [
+            "PHP",
+            "Symfony",
+            "Twig",
+            "MySQL",
+            "Doctrine ORM",
+            "Bootstrap",
+            "MVC",
+        ],
+        githubUrl: "https://github.com/Takahiro0215/symfony-ecommerce",
+    },
+    {
+        id: "car-rental",
+        image: "/projects/car-rental.png",
+        tags: [
+            "Kotlin",
+            "Mobile App Development",
+            "Android Studio",
+            "Android SDK",
+            "SQLite",
+        ],
+        githubUrl: "https://github.com/Takahiro0215/Auto-location",
+    },
+    {
+        id: "friendbook",
+        image: "/projects/friendbook.png",
+        tags: [
+            "C#",
+            "ASP.NET",
+            "Entity Framework",
+            "SQL Server",
+            "MVC",
+            "Web Application",
+        ],
+        githubUrl: "https://github.com/Takahiro0215/friendbook",
     },
 ];
 
@@ -34,7 +75,7 @@ export const ProjectSection = () => {
 
     return (
         <section id="projects" className="py-24 px-4 relative scroll-mt-24">
-            <div className="container mx-auto max-w-5xl">
+            <div className="container mx-auto max-w-7xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                     {t.projects.titlePrefix}{" "}
                     <span className="text-primary">
@@ -80,12 +121,16 @@ export const ProjectSection = () => {
                                     {t.projects.items[project.id].description}
                                 </p>
 
-                                <div className="flex justify-between items-center">
+                                <div className="flex justify-center pt-2">
                                     <a
                                         href={project.githubUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                        className="flex items-center justify-center w-10 h-10 rounded-full
+                                        bg-secondary/70 text-foreground/80
+                                        hover:bg-primary/10 hover:text-primary
+                                        transition-colors duration-300"
+                                        aria-label="View source code on GitHub"
                                     >
                                         <Github size={20} />
                                     </a>

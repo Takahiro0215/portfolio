@@ -81,15 +81,23 @@
         "items": {
             "portfolio": {
                 "title": "Personal Portfolio Website",
-                "description": "This personal portfolio website was built to showcase my projects, skills, and background as a junior web developer..."
+                "description": "This personal portfolio website was developed to showcase my projects, skills, and background as a junior web developer. It brings together projects completed as part of my studies and personal learning, highlighting my interest in both front-end and back-end development. Through this portfolio, I aim to demonstrate my ability to build functional, clear, and maintainable applications, while continuously learning and improving my technical skills."
             },
-            "quiz": {
-                "title": "Quiz App",
-                "description": "An interactive quiz application built with React. Users can answer questions, view their final score with a confetti animation, and navigate between pages using React Router. Quiz data is stored separately for better maintainability."
+            "video-streaming": {
+                "title": "Video Streaming Platform",
+                "description": "This video streaming platform was developed as a final school project. It allows administrators to manage YouTube video URLs stored in a MongoDB database and delivers content dynamically through a REST API using a React front-end."
             },
-            "recipes": {
-                "title": "Recettes Faciles",
-                "description": "A simple recipe management application where users can add recipes and search by title or ingredients. Data is stored locally using LocalStorage."
+            "ecommerce": {
+                "title": "E-commerce Web Application",
+                "description": "This e-commerce web application was developed using Symfony and follows the MVC architecture. It includes product management, user authentication, shopping cart functionality and order processing."
+            },
+            "car-rental": {
+                "title": "Car Rental Mobile Application",
+                "description": "This car rental mobile application was developed using Kotlin and Android Studio as part of my studies. Users can browse available vehicles, select rental dates, and create reservations. All data is stored locally using an SQLite database, with built-in logic to manage availability, reservations, and date validation."
+            },
+            "friendbook": {
+                "title": "Friendbook Social Web Application",
+                "description": "Friendbook is a social web application developed using C# and ASP.NET. Users can create accounts, log in, publish posts, and view a shared timeline. The application uses a relational database with Entity Framework and follows the MVC architecture, allowing for clean code organization and maintainable CRUD operations."
             }
         }
     }
