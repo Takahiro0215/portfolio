@@ -95,7 +95,9 @@ export const ProjectSection = () => {
                         >
                             <div className="h-48 overflow-hidden">
                                 <img
-                                    src={project.image}
+                                    src={`${import.meta.env.BASE_URL}${
+                                        project.image
+                                    }`}
                                     alt={t.projects.items[project.id].title}
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                 />

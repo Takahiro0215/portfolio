@@ -3,11 +3,13 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
 
+const basename = "/portfolio";
+
 function App() {
     return (
         <>
             <Toaster />
-            <BrowserRouter>
+            <BrowserRouter basename={basename}>
                 <Routes>
                     <Route index element={<Home />} />
                     <Route path="*" element={<NotFound />} />
